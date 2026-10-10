@@ -36,9 +36,6 @@ namespace ChestOrMonster.Model.Enemy
                 finalAtk *= 2;
             }
 
-            // Муляж отравления
-            finalAtk += finalAtk;
-
             return new DamageInfo(finalAtk, AttackType);
         }
     }
